@@ -21,7 +21,7 @@
             <LinearLayout
                 android:id="@+id/editTextParentLinearLayout"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="314dp"
                 android:layout_weight=".5"
                 android:background="?attr/colorPrimary"
                 android:gravity="center"
@@ -176,11 +176,12 @@
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/makeToDoFloatingActionButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="44dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:src="@drawable/ic_send_white_18dp"
+            app:backgroundTint="#EEE91E63"
             app:fabSize="normal"
             app:layout_anchor="@id/editTextParentLinearLayout"
             app:layout_anchorGravity="bottom|right" />

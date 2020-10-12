@@ -216,10 +216,11 @@
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/makeToDoFloatingActionButton"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="33dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:src="@drawable/ic_send_white_18dp"
+            app:backgroundTint="#77E91E63"
             app:fabSize="normal"
             app:layout_anchor="@id/editTextParentLinearLayout"
             app:layout_anchorGravity="bottom|right" />
