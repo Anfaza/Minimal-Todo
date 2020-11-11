@@ -17,3 +17,15 @@ before_script:
 
 script: "./gradlew build"
 
+deploy:
+    - provider: releases
+      api_key: "$GITHUB_TOKEN"
+      file : app/build/outputs/apk/releases/*
+      file_glob: true
+      skip_cleanup: true
+      overwrite: true
+      on:
+          tags: true
+          branch: master
+
+
